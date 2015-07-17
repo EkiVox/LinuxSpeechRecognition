@@ -23,4 +23,4 @@ Le but est d'être __modifiable a souhait__
         expliqué dans config.yml
     Lancement:
         cd dossier/de/mon/application
-        python SpeechRecognition.py
+        python LinuxSpeechRecognition.py
