@@ -4,7 +4,7 @@ LinuxSpeechRecognition est une application python utilisant des API tel que PyAu
 Le but est d'être __modifiable a souhait__
 
 ##Installation:
-    SpeechRecgnition:
+    SpeechRecognition:
         sudo apt-get install python-pip
         sudo pip install SpeechRecognition
     PyAudio:
