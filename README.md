@@ -4,6 +4,8 @@ LinuxSpeechRecognition est une application python utilisant des API tel que PyAu
 Le but est d'être __modifiable a souhait__
 
 ##Installation:
+    LinuxSpeechRecognition:
+        git clone https://github.com/EkiVox/LinuxSpeechRecognition.git (il sera enregistré dans le dossier LinuxSpeechRecognition/ )
     SpeechRecognition:
         sudo apt-get install python-pip
         sudo pip install SpeechRecognition
@@ -22,5 +24,5 @@ Le but est d'être __modifiable a souhait__
     Configuration:
         expliqué dans config.yml
     Lancement:
-        cd dossier/de/mon/application
+        cd LinuxSpeechRecognition
         python LinuxSpeechRecognition.py
