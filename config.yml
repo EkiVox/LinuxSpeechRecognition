@@ -15,6 +15,6 @@ configuration:
 #    answer: Oh oui je suis une machine, je n'ai pas de sentiment mais je te passe le bonjour
 #    cmd:
   -
-    phrase: bonjour
+    phrase: salut
     answer: Je n'ai pas de sentiments mais je te dit bonjour!
     cmd:
