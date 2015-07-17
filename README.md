@@ -5,7 +5,8 @@ Le but est d'être __modifiable a souhait__
 
 ##Installation:
     LinuxSpeechRecognition:
-        git clone https://github.com/EkiVox/LinuxSpeechRecognition.git (il sera enregistré dans le dossier LinuxSpeechRecognition/ )
+        git clone https://github.com/EkiVox/LinuxSpeechRecognition.git 
+        (il sera enregistré dans le dossier LinuxSpeechRecognition/ )
     SpeechRecognition:
         sudo apt-get install python-pip
         sudo pip install SpeechRecognition
