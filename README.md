@@ -21,9 +21,23 @@ Le but est d'être __modifiable a souhait__
         sudo python setup.py install
     module re, os, urllib:
         installé par défaut avec python
+##Configuration:
+    la configuration marche de la maniere suivante:
+    Il ne doit pas avoir de majuscule dans phrase!
+    2 espaces, tiret, a la ligne, 4 espace puis phrase, a la ligne 4 espace puis answer, a la ligne 4 espace puis cmd     obligatoirement. si vous ne savez pas quoi mettre laisse vide. Exemple:
+    
+      -
+        phrase: lance chrome
+        cmd: chromium-browser
+        answer: chrome se lance
+      -
+        phrase: (lance|ouvre) le client (ftp|sftp)       [la, si on dit lance ou ouvre ca revient au même, pareil pour ftp ou sftp. c'est grace au "()" et "|"]
+        cmd: filezilla
+        answer: Le client ftp se lance
+    
+        
+
 ##Utilisation:
-    Configuration:
-        expliqué dans config.yml
     Lancement:
         cd LinuxSpeechRecognition
         python LinuxSpeechRecognition.py
