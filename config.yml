@@ -1,20 +1,4 @@
 configuration:
-#la configuration marche de la maniere suivante:
-#Il ne doit pas avoir de majuscule dans phrase!
-#2 espaces, tiret, a la ligne, 4 espace puis phrase, a la ligne 4 espace puis answer, a la ligne 4 espace puis cmd obligatoirement. si vous ne savez pas quoi mettre laisse vide. Exemple:
-#  -
-#    phrase: bonjour #si l'utilisateur dit bonjour
-#    answer: bonjour a toi #l'ordinateur parle et dit ca
-#    cmd:    #je n'ai pas de commande donc je mets rien (sinon l'application ne marchera pas)
-#  -
-#    phrase: (ouvre|lance) firefox #si l'utilisteur dit ouvre firefox ou lance firefox
-#    answer: firefox se lance
-#    cmd: firefox
-#  -
-#    phrase: (.)*salut(.)*ordinateur(.)* #(.)* sert a remplacer n'importe quelle chaine de caracteres. donc tant que dans la phrase il y a salut et ordinateur, la commande et la phrase se dira
-#    answer: Oh oui je suis une machine, je n'ai pas de sentiment mais je te passe le bonjour
-#    cmd:
-  -
-    phrase: salut
-    answer: Je n'ai pas de sentiments mais je te dit bonjour!
-    cmd:
+#Pour éditer la configuration: il faut lancer configurator.py
+- {answer: ceci est un exemple, cmd: '', phrase: ok ben du coup ca marche!}
+
