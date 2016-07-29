@@ -1,4 +1,1 @@
-configuration:
-#Pour éditer la configuration: il faut lancer configurator.py
-- {answer: ceci est un exemple, cmd: '', phrase: ok ben du coup ca marche!}
-
+configuration: []

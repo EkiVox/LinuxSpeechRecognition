@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+import os
 
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
+cls()
 import yaml
 def editcmd():
     i = int(0)
@@ -47,7 +51,7 @@ def addcmd():
     phrase_add = raw_input(bcolors.OKGREEN + "   phrase à dire: ")
     answer_add = raw_input(bcolors.OKGREEN + "   réponse de l'ordinateur: ")
     cmd_add = raw_input(bcolors.OKGREEN + "   commande éxécuté: ")
-    basic_add = {'answer': 'ceci est un exemple', 'phrase': 'ok ben du coup ca marche!', 'cmd': ''}
+    basic_add = {'answer': '', 'phrase': '', 'cmd': ''}
     def replace_value_with_definition(key_to_find, valuefinal):
          for key, value in basic_add.items():
             basic_add[key_to_find] = valuefinal
@@ -57,8 +61,6 @@ def addcmd():
     config.append(basic_add)
     with open("config.yml", 'w') as recup2:
         yaml.dump(rawconfig, recup2)
-    #with open("config.yml", 'w') as recup2:
-    #   yaml.dump(rawconfig, recup2)
 
 
 
@@ -86,3 +88,4 @@ elif a == "2":
     removecmd()
 elif a == "3":
     editcmd()
+execfile("configurator.py")
