@@ -29,4 +29,5 @@ for config2 in config1["configuration"]:
     phrase = config2["phrase"]
     if re.match(phrase , text):
         os.system("espeak -v french -s 150 -p 40 '" + answer + "'")
+        os.system(cmd)
 
