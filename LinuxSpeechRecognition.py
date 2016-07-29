@@ -10,7 +10,7 @@ r = sr.Recognizer()
 with sr.Microphone() as source:
     audio = r.listen(source)
 text = r.recognize_wit(audio, key="KRBQCEKL3AJQBAKO6ZXIROQ7X4EAJ76L").lower()
-print bcolors.OKBLUE "tu as dit:" + text
+print(bcolors.OKBLUE + "tu as dit:" + text)
 with open("config.yml", 'r') as recup:
     config1 = yaml.load(recup)
 for config2 in config1["configuration"]:
