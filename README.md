@@ -15,6 +15,7 @@ Le but est d'être __modifiable a souhait__
     Lancement:
         cd LinuxSpeechRecognition
         python LinuxSpeechRecognition.py (reconnaisance vocale)
-            si le dernier ne marche pas, faites:
-            cd LinuxSpeechRecognition && arecord test.wav  (faites Ctrl+C quand vous avez finis)
-            python wavSpeechRecognition.py
+           
+    si le dernier ne marche pas, faites:
+        cd LinuxSpeechRecognition && arecord test.wav  (faites Ctrl+C quand vous avez finis)
+        python wavSpeechRecognition.py
