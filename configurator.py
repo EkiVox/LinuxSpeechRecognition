@@ -81,6 +81,7 @@ print bcolors.OKBLUE + bcolors.BOLD + "[+]" + " écrit le chiffre correspondant 
 print bcolors.OKBLUE + "    1.Ajouter une commande"
 print bcolors.OKBLUE + "    2.Supprimer une commande"
 print bcolors.OKBLUE + "    3.Editez une commande"
+print bcolors.OKBLUE + "    4.Quitter"
 a = raw_input(bcolors.OKBLUE + "[+] Chiffre de l'action: ")
 if a == "1":
     addcmd()
@@ -88,4 +89,6 @@ elif a == "2":
     removecmd()
 elif a == "3":
     editcmd()
+elif a == "4":
+    quit()
 execfile("configurator.py")
