@@ -1,7 +1,8 @@
 #LinuxSpeechRecognition
 ##Préambule
 LinuxSpeechRecognition est une application python utilisant des API tel que PyAudio, SpeechRecognition, etc..
-Le but est d'être __modifiable a souhait__
+Le but est d'être __modifiable a souhait__! cette version est la version linux. Celle windows est disponible ici:
+https://github.com/EkiVox/WindowsSpeechRecognition/
 
 ##Installation:
     script linux (en root):
