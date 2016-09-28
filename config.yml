@@ -1,1 +1,5 @@
-configuration: []
+configuration:
+- {answer: okay je lance firefox de suite, cmd: firefox, phrase: lance (internet|firefox)}
+- {answer: okay je le fait tout de suite, cmd: python configurator.py, phrase: lance
+    (.)* configurateur}
+- {answer: je prend la fuite, cmd: killall -9 python, phrase: (ferme-toi|stop)}
